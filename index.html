@@ -9,32 +9,40 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
     
 </head>
-    <body>
+    <body class="container">
+
         <!-- Хедер -->
+        
         <header class="header">
-            <nav class="header-navigation">
-            <a lang="en" class="logo" href="/">
-                <span class="accent-logo">Web</span>Studio
-            </a>
-                <ul class="header-list">
-                    <li class="header-item"><a class="headerlink" href="./index.html">Студия</a></li>
-                    <li class="header-item"><a class="headerlink" href="./portfolio.html">Портфолио</a></li>
-                    <li class="header-item"><a class="headerlink" href="">Контакты</a></li>
-                </ul>
-            </nav>
-            <!-- Контакты -->
-            <div class="contacts">
-                <ul class="contacts-list">
-                    <li class="contacts-item"><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="contacts-item"><a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-                </ul>
+            <div class="header-section">
+                <a lang="en" class="logo header-logo" href="/">
+                    <span class="accent-logo">Web</span>Studio
+                </a>
+                <nav class="header-navigation">
+                    
+                    <ul class="header-list">
+                        <li class="header-item"><a class="header-link" href="./index.html">Студия</a></li>
+                        <li class="header-item"><a class="header-link" href="./portfolio.html">Портфолио</a></li>
+                        <li class="header-item"><a class="header-link" href="">Контакты</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Контакты -->
+
+                    <ul class="contacts-list">
+                        <li class="contacts-item"><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li class="contacts-item"><a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    </ul>
             </div>
         </header>
         <main>
+
             <!-- Герой -->
+
             <section class="hero">
                 <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
                 <button class="hero-btn" type="button">Заказать услугу</button>
@@ -61,8 +69,10 @@
                     </li>
                 </ul>
             </section>
+
             <!-- Чем мы занимаемся -->
-            <section class="whatwedo">
+
+            <section class="whatwedo section">
                 <h2 class="whatwedo-title">Чем мы занимаемся</h2>
                 <ul class="whatwedo-list">
                     <li class="whatwedo-item"><img src="./images/whatwedo1.jpg" alt="Програмист набирает код" width="370" height="294"></li>
@@ -71,7 +81,7 @@
                 </ul>
             </section>
             <!-- Наша команда -->
-            <section class="team">
+            <section class="team section">
                 <h3 class="team-title">Наша команда</h3>
                 <ul class="team-list">
                     <li class="team-item">
@@ -96,7 +106,9 @@
                     </li>
                 </ul>
             </section>
+
             <!-- Футер -->
+
             <footer class="footer">
                 <a lang="en" class="logo logo-footer"  href="/">
                     <span class="accent-logo">Web</span>Studio

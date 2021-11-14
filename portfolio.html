@@ -13,22 +13,26 @@
     <link rel="stylesheet" href="./css/styles.css">
     
 </head>
-    <body>
+    <body class="container">
 
         <!-- Хедер -->
+
         <header class="header">
-            <nav class="header-navigation">
-                <a lang="en" class="logo" href="/">
+            <div class="header-section">
+                <a lang="en" class="logo header-logo" href="/">
                     <span class="accent-logo">Web</span>Studio
                 </a>
-                <ul class="header-list">
-                    <li class="header-item"><a class="headerlink" href="./index.html">Студия</a></li>
-                    <li class="header-item"><a class="headerlink" href="./portfolio.html">Портфолио</a></li>
-                    <li class="header-item"><a class="headerlink" href="">Контакты</a></li>
-                </ul>
-            </nav>
-            <!-- Контакты -->
-            <div class="contacts">
+                <nav class="header-navigation">
+        
+                    <ul class="header-list">
+                        <li class="header-item"><a class="header-link" href="./index.html">Студия</a></li>
+                        <li class="header-item"><a class="header-link" href="./portfolio.html">Портфолио</a></li>
+                        <li class="header-item"><a class="header-link" href="">Контакты</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Контакты -->
+
                 <ul class="contacts-list">
                     <li class="contacts-item"><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
@@ -37,7 +41,7 @@
             </div>
         </header>
         <main>
-            <section class="portfolio">
+            <section class="portfolio section">
                 <h1 class="portfolio-title hidden-title">Portfolio</h1>
                 <ul class="portfolio-list">
                     <li class="portfolio-item"><button class="portfolio-btn" type="button">Все</button></li>
@@ -59,7 +63,7 @@
                         <a class="gallery-link" href="">
                             <img src="./images/portfolio2.jpg" alt="Постер проекта" width="370" height="294">
                             <h2 class="gallery-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-                            <p class="gallery-text">Дизайн</p>
+                            <p class="gallery-text">Дизайн</p>                   
                         </a>
                     </li>
                     <li class="gallery-item">
@@ -116,6 +120,7 @@
         </main>
 
         <!-- Футер -->
+        
         <footer class="footer">
             <a lang="en" class="logo logo-footer" href="/">
                 <span class="accent-logo">Web</span>Studio
