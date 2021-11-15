@@ -58,7 +58,7 @@ button {
   padding-bottom: 94px;
 }
 
-/* logo */
+/* ------------------------- Лого ----------------------------- */
 
 .logo {
   font-family: Raleway, sans-serif;
@@ -76,7 +76,7 @@ button {
   color: var(--accent-color);
 }
 
-/* Header */
+/* ------------------------ Хедер ----------------------------- */
 
 .header-section {
   display: flex;
@@ -114,6 +114,8 @@ button {
   padding-bottom: 32px;
 }
 
+/* ----------------------- Контакты ---------------------------- */
+
 .contacts-list {
   display: flex;
   margin-left: auto;
@@ -136,7 +138,7 @@ button {
   margin-left: 50px;
 }
 
-/* Hero */
+/* ------------------------ Герой ----------------------------- */
 
 .hero {
   padding: 200px 452px 280px;
@@ -144,20 +146,23 @@ button {
   background-color: #2f303a;
 }
 .hero-title {
-  text-align: center;
   width: 696px;
   padding-bottom: 30px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
+
   color: var(--second-title-color);
 }
 .hero-btn {
   display: block;
   margin: 0 auto;
   padding: 10px 32px;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -177,7 +182,7 @@ button {
   background-color: #188ce8;
 }
 
-/* Advantages */
+/* --------------------- Наши преймущества --------------------- */
 
 .advantage {
   padding-top: 94px;
@@ -206,7 +211,7 @@ button {
   color: var(--main-text-color);
 }
 
-/* What we do ------------- Team */
+/* --------------------- Чем мы занимемся ---------------------- */
 
 .whatwedo section {
   width: 1170px;
@@ -233,6 +238,8 @@ button {
   color: var(--main-title-color);
 }
 
+/* ------------------------- Наша команда------------------------ */
+
 .team {
   width: 1170px;
   background-color: #f5f4fa;
@@ -257,31 +264,35 @@ button {
 .team-item-title {
   padding-top: 30px;
   padding-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+
   color: var(--main-title-color);
 }
 .team-item-text {
   padding-bottom: 30px;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+
   color: var(--main-text-color);
 }
 
-/* Footer */
+/* ----------------------- Футер ------------------------------- */
 
 .footer {
   background-color: #2f303a;
 }
 .logo-footer {
   display: block;
-  color: #ffffff;
   padding-top: 60px;
   padding-bottom: 20px;
+  color: #ffffff;
 }
 .address-link {
   font-weight: 400;
@@ -300,7 +311,7 @@ button {
   padding-bottom: 60px;
 }
 
-/* Portfolio */
+/* ---------------------- Портфолио --------------------------- */
 
 .portfolio-list {
   display: flex;
@@ -325,6 +336,7 @@ button {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+
   color: var(--main-btn-color);
   background: #f5f4fa;
 }
@@ -341,6 +353,8 @@ button {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
+/* ------------------------ Галерея ---------------------------- */
 
 .gallery-list {
   display: flex;
