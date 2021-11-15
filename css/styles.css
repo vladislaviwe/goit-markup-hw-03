@@ -32,8 +32,9 @@ ul {
 
 .container {
   width: 1200px;
-  padding-right: 15px;
+  margin: 0 auto;
   padding-left: 15px;
+  padding-right: 15px;
 }
 
 li {
@@ -74,8 +75,6 @@ button {
 .accent-logo {
   color: var(--accent-color);
 }
-
-/* Logo Header */
 
 /* Header */
 
@@ -141,12 +140,12 @@ button {
 
 .hero {
   padding: 200px 452px 280px;
+  width: 1600px;
   background-color: #2f303a;
-  text-align: center;
-  width: 1170px;
-  height: 600px;
 }
 .hero-title {
+  text-align: center;
+  width: 696px;
   padding-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -156,6 +155,8 @@ button {
   color: var(--second-title-color);
 }
 .hero-btn {
+  display: block;
+  margin: 0 auto;
   padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
@@ -218,7 +219,6 @@ button {
 .whatwedo-item {
   width: 370px;
 }
-
 .whatwedo-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -347,9 +347,8 @@ button {
   flex-wrap: wrap;
 }
 .gallery-item {
+  display: block;
   background-color: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
   margin-right: 30px;
   margin-bottom: 30px;
   width: 370px;
@@ -373,4 +372,15 @@ button {
   font-size: 16px;
   line-height: 1.87;
   color: var(--main-text-color);
+}
+
+.card {
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-top: none;
+}
+
+.gallery-link > img {
+  display: block;
 }
