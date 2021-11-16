@@ -78,19 +78,23 @@ button {
 
 /* ------------------------ Хедер ----------------------------- */
 
-.header-section {
-  display: flex;
-  align-items: center;
+.header {
   border-bottom: 1px solid #ececec;
 }
 
+.header-section {
+  display: flex;
+  align-items: center;
+}
+
 .header-list {
+  display: flex;
   margin-left: 93px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  display: flex;
 }
 
 .header-list a {
@@ -141,13 +145,15 @@ button {
 /* ------------------------ Герой ----------------------------- */
 
 .hero {
-  padding: 200px 452px 280px;
-  width: 1600px;
+  padding: 200px 0;
+  margin: 0 auto;
+  max-width: 1600px;
   background-color: #2f303a;
 }
 .hero-title {
   width: 696px;
   padding-bottom: 30px;
+  margin: 0 auto;
 
   font-weight: 900;
   font-size: 44px;
@@ -213,10 +219,6 @@ button {
 
 /* --------------------- Чем мы занимемся ---------------------- */
 
-.whatwedo section {
-  width: 1170px;
-}
-
 .whatwedo-list {
   display: flex;
 }
@@ -241,7 +243,6 @@ button {
 /* ------------------------- Наша команда------------------------ */
 
 .team {
-  width: 1170px;
   background-color: #f5f4fa;
 }
 
@@ -359,6 +360,7 @@ button {
 .gallery-list {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: -30px;
 }
 .gallery-item {
   display: block;
